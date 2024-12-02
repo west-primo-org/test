@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: blacksmith-4vcpu-ubuntu-2204
+    steps:
+    - name: hi
+      run: echo hi
